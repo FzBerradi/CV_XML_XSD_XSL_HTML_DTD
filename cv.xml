@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cv SYSTEM "cv.dtd">
+<?xml-stylesheet href="cv.xsl" type="text/xsl" ?>
+<cv xmlns="">
+    <entete>
+        <nom>BERRADI</nom>
+        <prenom>FATIMA ZOHRA</prenom>
+        <profile>Élève ingénieure en génie informatique audacieuse : Code, Crée, Transforme. Passionnée par l'innovation digitale,
+            prête à relever les défis technologiques de demain.</profile>
+        <dateDeNaisssance>09/02/2003</dateDeNaisssance>
+        <nationalite>Marocaine</nationalite>
+        <telephone>+212 7627789090</telephone>
+        <mail>fatimazohraberradi@gmail.com</mail>
+        <linkedin>/fatima-zohra-berradi-69b942237/</linkedin>
+    </entete>
+    <Formations>
+        <diplome>
+            <annee>2020-présent</annee>
+            <intitule>Diplôme d'ingénieur d'état en Informatique: Ecole Nationale des Sciences Appliquées Tétouan</intitule>
+        </diplome>
+        <diplome>
+            <annee>2020</annee>
+            <intitule>Baccalauréat Science Physique Mention Trés Bien : Lycée Ibn Khaldoun  </intitule>
+        </diplome>
+    </Formations>
+    <stages>
+        <stage>
+            <date>26/06/2023  01/08/2023</date>
+            <titre>Hotel Banyan Tree Tamouda Bay </titre>
+            <description>•  Les missions incluent la supervision du traitement des données sur Oracle,
+                la sauvegarde des données, l'installation et la configuration des équipements réseau pour des clubs,
+                villas et restaurants, la gestion des équipements du DATA CENTER de l'hôtel, et l'exploration des API, 
+                XML et la gestion des réseaux et des données clients et employés.
+            </description>
+            <organisation>Images/logoBan.png</organisation>
+        </stage>
+        
+        <stage>
+            <date>30/06/2020  23/08/2020</date>
+            <titre>Commune de Fnideq</titre>
+            <description>
+                • Le stage comprend l'assistance dans le calcul du budget annuel des produits au service 
+                Comptabilité et Budget, ainsi que le développement des compétences en communication et
+                l'enrichissement des connaissances sur les trois départements de la commune.
+            </description>
+            <organisation>Images/logoCom.jpg</organisation>
+        </stage>
+    </stages>
+    
+    <projets>
+        <projet>
+            <date_projet>MAI 2024</date_projet>
+            <titre_projet>APPLICATION WEB : GESTION DE LOCATION DES VOITURES</titre_projet>
+            <description_projet>Conception et développement d'une application web pour la location des voitures par des clients . Technologies utilisées:Laravel,MongoDB.</description_projet>
+        </projet>
+        
+        <projet>
+            <date_projet>Avril 2024</date_projet>
+            <titre_projet>Chat Application : Communication </titre_projet>
+            <description_projet>Développement d’une application réseau
+                utilisant l’architecture des sockets avec les
+                technologies Java. Technologies utilisées:Java, JavaSwing.</description_projet>
+        </projet>
+        <projet>
+            <date_projet>Dec 2023</date_projet>
+            <titre_projet>APPLICATION WEB: Espace des etudiants </titre_projet>
+            <description_projet>
+                Ce projet est réalisé en utilisant Laravel, HTML, CSS, JavaScript et MySQL, destiné aux étudiants souhaitant demander des documents scolaires.            </description_projet>
+        </projet>
+        <projet>
+            <date_projet>MAI 2023</date_projet>
+            <titre_projet>APPLICATION WEB : Communication entre marques et influenceurs </titre_projet>
+            <description_projet>
+                Développement une plateforme de mise en relation entre Influenceurs et marques pour communiquer et faire des contrats . 
+                Technologies utilisées : Php,Mysql, javascript, html, css.
+            </description_projet>        
+        </projet> 
+    </projets>
+    
+    <certificates>
+        <certificate>
+            <date_certificate>2024</date_certificate>
+            <titre_certificate>Oracle Academy: PL/SQL Database.</titre_certificate>
+        </certificate>
+        <certificate>
+            <date_certificate>2024</date_certificate>
+            <titre_certificate>Udemy: CompTIA Security+  .</titre_certificate>
+        </certificate>
+        <certificate>
+            <date_certificate>2023</date_certificate>
+            <titre_certificate>HackerRank: SQL-Intermediate .</titre_certificate>
+        </certificate>
+        <certificate>
+            <date_certificate>2023</date_certificate>
+            <titre_certificate>HackerRank: Java.</titre_certificate>
+        </certificate>
+        <certificate>
+            <date_certificate>2022</date_certificate>
+            <titre_certificate>Cisco : Introduction to Cybersecurity.</titre_certificate>
+        </certificate>
+    </certificates>
+    
+    <competences>
+        <competence>
+            <titre>Competences Techniques :</titre>
+            <description_competence>Laravel, Php,JS, Ajax, Java, JavaSwing,JEE,Python,C</description_competence>
+        </competence>
+        <competence>
+            <titre>Base de données :</titre>
+            <description_competence>Oracle, SQL, Mysql, MongoDB, PLSQL</description_competence>
+        </competence>
+        <competence>
+            <titre>Compétences Managériales:  :</titre>
+            <description_competence>Leadership partagé, Planification ponctuelle, Travail en Équipe</description_competence>
+        </competence>
+    </competences>
+    
+    <langues>
+        <langue>
+            <intitule>Français :</intitule>
+            <niveau> B2 - Test TV5Monde </niveau>
+        </langue>
+        <langue>
+            <intitule>Anglais :</intitule>
+            <niveau> B2 - Test cambridgeenglish</niveau>
+        </langue>
+        <langue>
+            <intitule>Espagnol :</intitule>
+            <niveau> B1 - Test victorias.fr</niveau>
+        </langue>
+        <langue>
+            <intitule>Arabe :</intitule>
+            <niveau> Maternelle</niveau>
+        </langue>
+    </langues>
+    <loisirs>
+        <loisir> • Technologie (Visionnage de vidéos)</loisir>
+        <loisir> • Voyage  </loisir>
+        <loisir> • Lecture/Ecriture </loisir>
+    </loisirs>
+</cv>

@@ -1,0 +1,153 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    color: #333;
+}
+
+.resume {
+    display: flex;
+    width: 900px;
+    margin: 50px auto;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.section2 {
+    background-color: rgb(218, 165, 32);  
+    color: white; 
+    padding: 8px 16px; 
+    display: inline-block; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);  
+    width: 180px;  
+    text-align: center;  
+    margin: 5px auto 5px;
+}
+.section h2 {
+    background-color: rgb(218, 165, 32); 
+    color: white;  
+    padding: 8px 16px;  
+    margin-top: 0;  
+    margin-bottom: 10px; 
+    display: inline-block;  
+    border-radius: 10px;  
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.section {
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc;  
+    padding: 20px; 
+    margin-bottom: 20px;  
+    position: relative;  
+}
+
+.section h2 {
+    position: absolute; 
+    top: -10px;  
+    left: 20px;
+}
+
+.date-column {
+    width: 15%;
+    text-align: right;
+    position: relative;
+    padding-right: 20px;
+}
+
+ .date-column::after {
+    content: '';
+    position: absolute;
+    top: -70px;
+    right: -10px;
+    width: 2px;
+    height: 200px;
+    background-color: rgb(218, 165, 32);
+}
+.datestyle{
+    color: #323B4C;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    width: 0%;
+    margin: 0 0 0 0;
+}
+.details-column {
+    flex-grow: 1;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.details-column .text-content {
+    display: flex;
+    width: 100%;
+    align-items: center; 
+}
+
+.details-column .logo {
+    width: 40px; 
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%; 
+}
+
+.details-column .job-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.stage-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    color: #333; 
+}
+
+.left-bar, .right-bar {
+    padding: 20px;
+}
+
+.left-bar {
+    width: 35%;
+    background-color: #333;
+}
+
+.right-bar {
+    width: 65%;
+}
+
+.profile-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: 20px auto;
+    display: block;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #DAA520;
+}
+h1 {
+    margin-bottom: 0;  
+}
+.contact-info p, .skills p, .languages p {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.contact-info i, .skills i, .languages i {
+    margin-right: 10px;
+}
+
+
+

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="cv">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="entete" type="enteteType"/>
+                <xs:element name="Formations" type="FormationsType"/>
+                <xs:element name="stages" type="stagesType"/>
+                <xs:element name="projets" type="projetsType"/>
+                <xs:element name="certificates" type="certificatesType"/>
+                <xs:element name="competences" type="competencesType"/>
+                <xs:element name="langues" type="languesType"/>
+                <xs:element name="loisirs" type="loisirsType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name="enteteType">
+        <xs:sequence>
+            <xs:element name="nom" type="xs:string"/>
+            <xs:element name="prenom" type="xs:string"/>
+            <xs:element name="profile" type="xs:string"/>
+            <xs:element name="dateDeNaisssance" type="xs:string"/>
+            <xs:element name="nationalite" type="xs:string"/>
+            <xs:element name="telephone" type="xs:string"/>
+            <xs:element name="mail" type="xs:string"/>
+            <xs:element name="linkedin" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="FormationsType">
+        <xs:sequence>
+            <xs:element name="diplome" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="annee" type="xs:string"/>
+                        <xs:element name="intitule" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="stagesType">
+        <xs:sequence>
+            <xs:element name="stage" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="date" type="xs:string"/>
+                        <xs:element name="titre" type="xs:string"/>
+                        <xs:element name="description" type="xs:string"/>
+                        <xs:element name="organisation" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="projetsType">
+        <xs:sequence>
+            <xs:element name="projet" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="date_projet" type="xs:string"/>
+                        <xs:element name="titre_projet" type="xs:string"/>
+                        <xs:element name="description_projet" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="certificatesType">
+        <xs:sequence>
+            <xs:element name="certificate" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="date_certificate" type="xs:string"/>
+                        <xs:element name="titre_certificate" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="competencesType">
+        <xs:sequence>
+            <xs:element name="competence" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="titre" type="xs:string"/>
+                        <xs:element name="description_competence" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="languesType">
+        <xs:sequence>
+            <xs:element name="langue" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="intitule_langue" type="xs:string"/>
+                        <xs:element name="niveau" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="loisirsType">
+        <xs:sequence>
+            <xs:element name="loisir" maxOccurs="unbounded" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+</xs:schema>
